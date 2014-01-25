@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32542A43189350EE00D82532 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32542A42189350EE00D82532 /* Foundation.framework */; };
+		32542A45189350EE00D82532 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32542A44189350EE00D82532 /* CoreGraphics.framework */; };
+		32542A47189350EE00D82532 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32542A46189350EE00D82532 /* UIKit.framework */; };
+		32542A49189350EE00D82532 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32542A48189350EE00D82532 /* CoreData.framework */; };
+		32542A4F189350EE00D82532 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32542A4D189350EE00D82532 /* InfoPlist.strings */; };
+		32542A51189350EE00D82532 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32542A50189350EE00D82532 /* main.m */; };
+		32542A55189350EE00D82532 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32542A54189350EE00D82532 /* AppDelegate.m */; };
+		32542A58189350EE00D82532 /* PartyAlarm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 32542A56189350EE00D82532 /* PartyAlarm.xcdatamodeld */; };
+		32542A5A189350EE00D82532 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32542A59189350EE00D82532 /* Images.xcassets */; };
+		32542A61189350EE00D82532 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32542A60189350EE00D82532 /* XCTest.framework */; };
+		32542A62189350EE00D82532 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32542A42189350EE00D82532 /* Foundation.framework */; };
+		32542A63189350EE00D82532 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32542A46189350EE00D82532 /* UIKit.framework */; };
+		32542A64189350EE00D82532 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32542A48189350EE00D82532 /* CoreData.framework */; };
+		32542A6C189350EE00D82532 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32542A6A189350EE00D82532 /* InfoPlist.strings */; };
+		32542A6E189350EE00D82532 /* PartyAlarmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32542A6D189350EE00D82532 /* PartyAlarmTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32542A65189350EE00D82532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32542A37189350ED00D82532 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32542A3E189350EE00D82532;
+			remoteInfo = PartyAlarm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32542A3F189350EE00D82532 /* PartyAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PartyAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32542A42189350EE00D82532 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		32542A44189350EE00D82532 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		32542A46189350EE00D82532 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		32542A48189350EE00D82532 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		32542A4C189350EE00D82532 /* PartyAlarm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PartyAlarm-Info.plist"; sourceTree = "<group>"; };
+		32542A4E189350EE00D82532 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32542A50189350EE00D82532 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32542A52189350EE00D82532 /* PartyAlarm-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PartyAlarm-Prefix.pch"; sourceTree = "<group>"; };
+		32542A53189350EE00D82532 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32542A54189350EE00D82532 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32542A57189350EE00D82532 /* PartyAlarm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PartyAlarm.xcdatamodel; sourceTree = "<group>"; };
+		32542A59189350EE00D82532 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		32542A5F189350EE00D82532 /* PartyAlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PartyAlarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32542A60189350EE00D82532 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		32542A69189350EE00D82532 /* PartyAlarmTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PartyAlarmTests-Info.plist"; sourceTree = "<group>"; };
+		32542A6B189350EE00D82532 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32542A6D189350EE00D82532 /* PartyAlarmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PartyAlarmTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32542A3C189350EE00D82532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32542A45189350EE00D82532 /* CoreGraphics.framework in Frameworks */,
+				32542A49189350EE00D82532 /* CoreData.framework in Frameworks */,
+				32542A47189350EE00D82532 /* UIKit.framework in Frameworks */,
+				32542A43189350EE00D82532 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32542A5C189350EE00D82532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32542A61189350EE00D82532 /* XCTest.framework in Frameworks */,
+				32542A64189350EE00D82532 /* CoreData.framework in Frameworks */,
+				32542A63189350EE00D82532 /* UIKit.framework in Frameworks */,
+				32542A62189350EE00D82532 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32542A36189350ED00D82532 = {
+			isa = PBXGroup;
+			children = (
+				32542A4A189350EE00D82532 /* PartyAlarm */,
+				32542A67189350EE00D82532 /* PartyAlarmTests */,
+				32542A41189350EE00D82532 /* Frameworks */,
+				32542A40189350EE00D82532 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32542A40189350EE00D82532 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32542A3F189350EE00D82532 /* PartyAlarm.app */,
+				32542A5F189350EE00D82532 /* PartyAlarmTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32542A41189350EE00D82532 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32542A42189350EE00D82532 /* Foundation.framework */,
+				32542A44189350EE00D82532 /* CoreGraphics.framework */,
+				32542A46189350EE00D82532 /* UIKit.framework */,
+				32542A48189350EE00D82532 /* CoreData.framework */,
+				32542A60189350EE00D82532 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32542A4A189350EE00D82532 /* PartyAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				32542A53189350EE00D82532 /* AppDelegate.h */,
+				32542A54189350EE00D82532 /* AppDelegate.m */,
+				32542A59189350EE00D82532 /* Images.xcassets */,
+				32542A56189350EE00D82532 /* PartyAlarm.xcdatamodeld */,
+				32542A4B189350EE00D82532 /* Supporting Files */,
+			);
+			path = PartyAlarm;
+			sourceTree = "<group>";
+		};
+		32542A4B189350EE00D82532 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32542A4C189350EE00D82532 /* PartyAlarm-Info.plist */,
+				32542A4D189350EE00D82532 /* InfoPlist.strings */,
+				32542A50189350EE00D82532 /* main.m */,
+				32542A52189350EE00D82532 /* PartyAlarm-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32542A67189350EE00D82532 /* PartyAlarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				32542A6D189350EE00D82532 /* PartyAlarmTests.m */,
+				32542A68189350EE00D82532 /* Supporting Files */,
+			);
+			path = PartyAlarmTests;
+			sourceTree = "<group>";
+		};
+		32542A68189350EE00D82532 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32542A69189350EE00D82532 /* PartyAlarmTests-Info.plist */,
+				32542A6A189350EE00D82532 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32542A3E189350EE00D82532 /* PartyAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32542A71189350EE00D82532 /* Build configuration list for PBXNativeTarget "PartyAlarm" */;
+			buildPhases = (
+				32542A3B189350EE00D82532 /* Sources */,
+				32542A3C189350EE00D82532 /* Frameworks */,
+				32542A3D189350EE00D82532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PartyAlarm;
+			productName = PartyAlarm;
+			productReference = 32542A3F189350EE00D82532 /* PartyAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32542A5E189350EE00D82532 /* PartyAlarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32542A74189350EE00D82532 /* Build configuration list for PBXNativeTarget "PartyAlarmTests" */;
+			buildPhases = (
+				32542A5B189350EE00D82532 /* Sources */,
+				32542A5C189350EE00D82532 /* Frameworks */,
+				32542A5D189350EE00D82532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32542A66189350EE00D82532 /* PBXTargetDependency */,
+			);
+			name = PartyAlarmTests;
+			productName = PartyAlarmTests;
+			productReference = 32542A5F189350EE00D82532 /* PartyAlarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32542A37189350ED00D82532 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Nikos Kofinas";
+				TargetAttributes = {
+					32542A5E189350EE00D82532 = {
+						TestTargetID = 32542A3E189350EE00D82532;
+					};
+				};
+			};
+			buildConfigurationList = 32542A3A189350ED00D82532 /* Build configuration list for PBXProject "PartyAlarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 32542A36189350ED00D82532;
+			productRefGroup = 32542A40189350EE00D82532 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32542A3E189350EE00D82532 /* PartyAlarm */,
+				32542A5E189350EE00D82532 /* PartyAlarmTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32542A3D189350EE00D82532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32542A4F189350EE00D82532 /* InfoPlist.strings in Resources */,
+				32542A5A189350EE00D82532 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32542A5D189350EE00D82532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32542A6C189350EE00D82532 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32542A3B189350EE00D82532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32542A58189350EE00D82532 /* PartyAlarm.xcdatamodeld in Sources */,
+				32542A55189350EE00D82532 /* AppDelegate.m in Sources */,
+				32542A51189350EE00D82532 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32542A5B189350EE00D82532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32542A6E189350EE00D82532 /* PartyAlarmTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32542A66189350EE00D82532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32542A3E189350EE00D82532 /* PartyAlarm */;
+			targetProxy = 32542A65189350EE00D82532 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32542A4D189350EE00D82532 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32542A4E189350EE00D82532 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		32542A6A189350EE00D82532 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32542A6B189350EE00D82532 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32542A6F189350EE00D82532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32542A70189350EE00D82532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32542A72189350EE00D82532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PartyAlarm/PartyAlarm-Prefix.pch";
+				INFOPLIST_FILE = "PartyAlarm/PartyAlarm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		32542A73189350EE00D82532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PartyAlarm/PartyAlarm-Prefix.pch";
+				INFOPLIST_FILE = "PartyAlarm/PartyAlarm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		32542A75189350EE00D82532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PartyAlarm.app/PartyAlarm";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PartyAlarm/PartyAlarm-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PartyAlarmTests/PartyAlarmTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		32542A76189350EE00D82532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PartyAlarm.app/PartyAlarm";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PartyAlarm/PartyAlarm-Prefix.pch";
+				INFOPLIST_FILE = "PartyAlarmTests/PartyAlarmTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32542A3A189350ED00D82532 /* Build configuration list for PBXProject "PartyAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32542A6F189350EE00D82532 /* Debug */,
+				32542A70189350EE00D82532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32542A71189350EE00D82532 /* Build configuration list for PBXNativeTarget "PartyAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32542A72189350EE00D82532 /* Debug */,
+				32542A73189350EE00D82532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32542A74189350EE00D82532 /* Build configuration list for PBXNativeTarget "PartyAlarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32542A75189350EE00D82532 /* Debug */,
+				32542A76189350EE00D82532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		32542A56189350EE00D82532 /* PartyAlarm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				32542A57189350EE00D82532 /* PartyAlarm.xcdatamodel */,
+			);
+			currentVersion = 32542A57189350EE00D82532 /* PartyAlarm.xcdatamodel */;
+			path = PartyAlarm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 32542A37189350ED00D82532 /* Project object */;
+}
