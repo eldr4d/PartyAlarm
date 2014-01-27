@@ -7,148 +7,157 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		32542A43189350EE00D82532 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32542A42189350EE00D82532 /* Foundation.framework */; };
-		32542A45189350EE00D82532 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32542A44189350EE00D82532 /* CoreGraphics.framework */; };
-		32542A47189350EE00D82532 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32542A46189350EE00D82532 /* UIKit.framework */; };
-		32542A49189350EE00D82532 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32542A48189350EE00D82532 /* CoreData.framework */; };
-		32542A4F189350EE00D82532 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32542A4D189350EE00D82532 /* InfoPlist.strings */; };
-		32542A51189350EE00D82532 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32542A50189350EE00D82532 /* main.m */; };
-		32542A55189350EE00D82532 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32542A54189350EE00D82532 /* AppDelegate.m */; };
-		32542A58189350EE00D82532 /* PartyAlarm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 32542A56189350EE00D82532 /* PartyAlarm.xcdatamodeld */; };
-		32542A5A189350EE00D82532 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32542A59189350EE00D82532 /* Images.xcassets */; };
-		32542A61189350EE00D82532 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32542A60189350EE00D82532 /* XCTest.framework */; };
-		32542A62189350EE00D82532 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32542A42189350EE00D82532 /* Foundation.framework */; };
-		32542A63189350EE00D82532 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32542A46189350EE00D82532 /* UIKit.framework */; };
-		32542A64189350EE00D82532 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32542A48189350EE00D82532 /* CoreData.framework */; };
-		32542A6C189350EE00D82532 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32542A6A189350EE00D82532 /* InfoPlist.strings */; };
-		32542A6E189350EE00D82532 /* PartyAlarmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32542A6D189350EE00D82532 /* PartyAlarmTests.m */; };
+		32FB59EF18971C25001AB93B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FB59EE18971C25001AB93B /* Foundation.framework */; };
+		32FB59F118971C25001AB93B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FB59F018971C25001AB93B /* CoreGraphics.framework */; };
+		32FB59F318971C25001AB93B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FB59F218971C25001AB93B /* UIKit.framework */; };
+		32FB59F918971C25001AB93B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32FB59F718971C25001AB93B /* InfoPlist.strings */; };
+		32FB59FB18971C25001AB93B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FB59FA18971C25001AB93B /* main.m */; };
+		32FB59FF18971C25001AB93B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FB59FE18971C25001AB93B /* AppDelegate.m */; };
+		32FB5A0218971C25001AB93B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FB5A0018971C25001AB93B /* Main.storyboard */; };
+		32FB5A0718971C25001AB93B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32FB5A0618971C25001AB93B /* Images.xcassets */; };
+		32FB5A0E18971C26001AB93B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FB5A0D18971C26001AB93B /* XCTest.framework */; };
+		32FB5A0F18971C26001AB93B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FB59EE18971C25001AB93B /* Foundation.framework */; };
+		32FB5A1018971C26001AB93B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FB59F218971C25001AB93B /* UIKit.framework */; };
+		32FB5A1818971C26001AB93B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32FB5A1618971C26001AB93B /* InfoPlist.strings */; };
+		32FB5A1A18971C26001AB93B /* PartyAlarmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FB5A1918971C26001AB93B /* PartyAlarmTests.m */; };
+		32FB5A2518971CE6001AB93B /* AlarmCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FB5A2418971CE6001AB93B /* AlarmCell.m */; };
+		32FB5A2818971D02001AB93B /* AlarmTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FB5A2718971D02001AB93B /* AlarmTableController.m */; };
+		32FB5A2B18971F1E001AB93B /* AlarmNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FB5A2A18971F1E001AB93B /* AlarmNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		32542A65189350EE00D82532 /* PBXContainerItemProxy */ = {
+		32FB5A1118971C26001AB93B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 32542A37189350ED00D82532 /* Project object */;
+			containerPortal = 32FB59E318971C25001AB93B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 32542A3E189350EE00D82532;
+			remoteGlobalIDString = 32FB59EA18971C25001AB93B;
 			remoteInfo = PartyAlarm;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		32542A3F189350EE00D82532 /* PartyAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PartyAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		32542A42189350EE00D82532 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		32542A44189350EE00D82532 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		32542A46189350EE00D82532 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		32542A48189350EE00D82532 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		32542A4C189350EE00D82532 /* PartyAlarm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PartyAlarm-Info.plist"; sourceTree = "<group>"; };
-		32542A4E189350EE00D82532 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		32542A50189350EE00D82532 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		32542A52189350EE00D82532 /* PartyAlarm-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PartyAlarm-Prefix.pch"; sourceTree = "<group>"; };
-		32542A53189350EE00D82532 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		32542A54189350EE00D82532 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		32542A57189350EE00D82532 /* PartyAlarm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PartyAlarm.xcdatamodel; sourceTree = "<group>"; };
-		32542A59189350EE00D82532 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		32542A5F189350EE00D82532 /* PartyAlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PartyAlarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		32542A60189350EE00D82532 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		32542A69189350EE00D82532 /* PartyAlarmTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PartyAlarmTests-Info.plist"; sourceTree = "<group>"; };
-		32542A6B189350EE00D82532 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		32542A6D189350EE00D82532 /* PartyAlarmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PartyAlarmTests.m; sourceTree = "<group>"; };
+		32FB59EB18971C25001AB93B /* PartyAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PartyAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FB59EE18971C25001AB93B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		32FB59F018971C25001AB93B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		32FB59F218971C25001AB93B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		32FB59F618971C25001AB93B /* PartyAlarm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PartyAlarm-Info.plist"; sourceTree = "<group>"; };
+		32FB59F818971C25001AB93B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32FB59FA18971C25001AB93B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32FB59FC18971C25001AB93B /* PartyAlarm-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PartyAlarm-Prefix.pch"; sourceTree = "<group>"; };
+		32FB59FD18971C25001AB93B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32FB59FE18971C25001AB93B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32FB5A0118971C25001AB93B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32FB5A0618971C25001AB93B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		32FB5A0C18971C26001AB93B /* PartyAlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PartyAlarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FB5A0D18971C26001AB93B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		32FB5A1518971C26001AB93B /* PartyAlarmTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PartyAlarmTests-Info.plist"; sourceTree = "<group>"; };
+		32FB5A1718971C26001AB93B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32FB5A1918971C26001AB93B /* PartyAlarmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PartyAlarmTests.m; sourceTree = "<group>"; };
+		32FB5A2318971CE6001AB93B /* AlarmCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmCell.h; sourceTree = "<group>"; };
+		32FB5A2418971CE6001AB93B /* AlarmCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmCell.m; sourceTree = "<group>"; };
+		32FB5A2618971D02001AB93B /* AlarmTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmTableController.h; sourceTree = "<group>"; };
+		32FB5A2718971D02001AB93B /* AlarmTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmTableController.m; sourceTree = "<group>"; };
+		32FB5A2918971F1E001AB93B /* AlarmNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmNavigationController.h; sourceTree = "<group>"; };
+		32FB5A2A18971F1E001AB93B /* AlarmNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		32542A3C189350EE00D82532 /* Frameworks */ = {
+		32FB59E818971C25001AB93B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32542A45189350EE00D82532 /* CoreGraphics.framework in Frameworks */,
-				32542A49189350EE00D82532 /* CoreData.framework in Frameworks */,
-				32542A47189350EE00D82532 /* UIKit.framework in Frameworks */,
-				32542A43189350EE00D82532 /* Foundation.framework in Frameworks */,
+				32FB59F118971C25001AB93B /* CoreGraphics.framework in Frameworks */,
+				32FB59F318971C25001AB93B /* UIKit.framework in Frameworks */,
+				32FB59EF18971C25001AB93B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		32542A5C189350EE00D82532 /* Frameworks */ = {
+		32FB5A0918971C26001AB93B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32542A61189350EE00D82532 /* XCTest.framework in Frameworks */,
-				32542A64189350EE00D82532 /* CoreData.framework in Frameworks */,
-				32542A63189350EE00D82532 /* UIKit.framework in Frameworks */,
-				32542A62189350EE00D82532 /* Foundation.framework in Frameworks */,
+				32FB5A0E18971C26001AB93B /* XCTest.framework in Frameworks */,
+				32FB5A1018971C26001AB93B /* UIKit.framework in Frameworks */,
+				32FB5A0F18971C26001AB93B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		32542A36189350ED00D82532 = {
+		32FB59E218971C25001AB93B = {
 			isa = PBXGroup;
 			children = (
-				32542A4A189350EE00D82532 /* PartyAlarm */,
-				32542A67189350EE00D82532 /* PartyAlarmTests */,
-				32542A41189350EE00D82532 /* Frameworks */,
-				32542A40189350EE00D82532 /* Products */,
+				32FB59F418971C25001AB93B /* PartyAlarm */,
+				32FB5A1318971C26001AB93B /* PartyAlarmTests */,
+				32FB59ED18971C25001AB93B /* Frameworks */,
+				32FB59EC18971C25001AB93B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		32542A40189350EE00D82532 /* Products */ = {
+		32FB59EC18971C25001AB93B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				32542A3F189350EE00D82532 /* PartyAlarm.app */,
-				32542A5F189350EE00D82532 /* PartyAlarmTests.xctest */,
+				32FB59EB18971C25001AB93B /* PartyAlarm.app */,
+				32FB5A0C18971C26001AB93B /* PartyAlarmTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		32542A41189350EE00D82532 /* Frameworks */ = {
+		32FB59ED18971C25001AB93B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				32542A42189350EE00D82532 /* Foundation.framework */,
-				32542A44189350EE00D82532 /* CoreGraphics.framework */,
-				32542A46189350EE00D82532 /* UIKit.framework */,
-				32542A48189350EE00D82532 /* CoreData.framework */,
-				32542A60189350EE00D82532 /* XCTest.framework */,
+				32FB59EE18971C25001AB93B /* Foundation.framework */,
+				32FB59F018971C25001AB93B /* CoreGraphics.framework */,
+				32FB59F218971C25001AB93B /* UIKit.framework */,
+				32FB5A0D18971C26001AB93B /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		32542A4A189350EE00D82532 /* PartyAlarm */ = {
+		32FB59F418971C25001AB93B /* PartyAlarm */ = {
 			isa = PBXGroup;
 			children = (
-				32542A53189350EE00D82532 /* AppDelegate.h */,
-				32542A54189350EE00D82532 /* AppDelegate.m */,
-				32542A59189350EE00D82532 /* Images.xcassets */,
-				32542A56189350EE00D82532 /* PartyAlarm.xcdatamodeld */,
-				32542A4B189350EE00D82532 /* Supporting Files */,
+				32FB59FD18971C25001AB93B /* AppDelegate.h */,
+				32FB59FE18971C25001AB93B /* AppDelegate.m */,
+				32FB5A0018971C25001AB93B /* Main.storyboard */,
+				32FB5A0618971C25001AB93B /* Images.xcassets */,
+				32FB59F518971C25001AB93B /* Supporting Files */,
+				32FB5A2318971CE6001AB93B /* AlarmCell.h */,
+				32FB5A2418971CE6001AB93B /* AlarmCell.m */,
+				32FB5A2618971D02001AB93B /* AlarmTableController.h */,
+				32FB5A2718971D02001AB93B /* AlarmTableController.m */,
+				32FB5A2918971F1E001AB93B /* AlarmNavigationController.h */,
+				32FB5A2A18971F1E001AB93B /* AlarmNavigationController.m */,
 			);
 			path = PartyAlarm;
 			sourceTree = "<group>";
 		};
-		32542A4B189350EE00D82532 /* Supporting Files */ = {
+		32FB59F518971C25001AB93B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				32542A4C189350EE00D82532 /* PartyAlarm-Info.plist */,
-				32542A4D189350EE00D82532 /* InfoPlist.strings */,
-				32542A50189350EE00D82532 /* main.m */,
-				32542A52189350EE00D82532 /* PartyAlarm-Prefix.pch */,
+				32FB59F618971C25001AB93B /* PartyAlarm-Info.plist */,
+				32FB59F718971C25001AB93B /* InfoPlist.strings */,
+				32FB59FA18971C25001AB93B /* main.m */,
+				32FB59FC18971C25001AB93B /* PartyAlarm-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		32542A67189350EE00D82532 /* PartyAlarmTests */ = {
+		32FB5A1318971C26001AB93B /* PartyAlarmTests */ = {
 			isa = PBXGroup;
 			children = (
-				32542A6D189350EE00D82532 /* PartyAlarmTests.m */,
-				32542A68189350EE00D82532 /* Supporting Files */,
+				32FB5A1918971C26001AB93B /* PartyAlarmTests.m */,
+				32FB5A1418971C26001AB93B /* Supporting Files */,
 			);
 			path = PartyAlarmTests;
 			sourceTree = "<group>";
 		};
-		32542A68189350EE00D82532 /* Supporting Files */ = {
+		32FB5A1418971C26001AB93B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				32542A69189350EE00D82532 /* PartyAlarmTests-Info.plist */,
-				32542A6A189350EE00D82532 /* InfoPlist.strings */,
+				32FB5A1518971C26001AB93B /* PartyAlarmTests-Info.plist */,
+				32FB5A1618971C26001AB93B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -156,13 +165,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		32542A3E189350EE00D82532 /* PartyAlarm */ = {
+		32FB59EA18971C25001AB93B /* PartyAlarm */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 32542A71189350EE00D82532 /* Build configuration list for PBXNativeTarget "PartyAlarm" */;
+			buildConfigurationList = 32FB5A1D18971C26001AB93B /* Build configuration list for PBXNativeTarget "PartyAlarm" */;
 			buildPhases = (
-				32542A3B189350EE00D82532 /* Sources */,
-				32542A3C189350EE00D82532 /* Frameworks */,
-				32542A3D189350EE00D82532 /* Resources */,
+				32FB59E718971C25001AB93B /* Sources */,
+				32FB59E818971C25001AB93B /* Frameworks */,
+				32FB59E918971C25001AB93B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -170,121 +179,133 @@
 			);
 			name = PartyAlarm;
 			productName = PartyAlarm;
-			productReference = 32542A3F189350EE00D82532 /* PartyAlarm.app */;
+			productReference = 32FB59EB18971C25001AB93B /* PartyAlarm.app */;
 			productType = "com.apple.product-type.application";
 		};
-		32542A5E189350EE00D82532 /* PartyAlarmTests */ = {
+		32FB5A0B18971C26001AB93B /* PartyAlarmTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 32542A74189350EE00D82532 /* Build configuration list for PBXNativeTarget "PartyAlarmTests" */;
+			buildConfigurationList = 32FB5A2018971C26001AB93B /* Build configuration list for PBXNativeTarget "PartyAlarmTests" */;
 			buildPhases = (
-				32542A5B189350EE00D82532 /* Sources */,
-				32542A5C189350EE00D82532 /* Frameworks */,
-				32542A5D189350EE00D82532 /* Resources */,
+				32FB5A0818971C26001AB93B /* Sources */,
+				32FB5A0918971C26001AB93B /* Frameworks */,
+				32FB5A0A18971C26001AB93B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				32542A66189350EE00D82532 /* PBXTargetDependency */,
+				32FB5A1218971C26001AB93B /* PBXTargetDependency */,
 			);
 			name = PartyAlarmTests;
 			productName = PartyAlarmTests;
-			productReference = 32542A5F189350EE00D82532 /* PartyAlarmTests.xctest */;
+			productReference = 32FB5A0C18971C26001AB93B /* PartyAlarmTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		32542A37189350ED00D82532 /* Project object */ = {
+		32FB59E318971C25001AB93B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Nikos Kofinas";
 				TargetAttributes = {
-					32542A5E189350EE00D82532 = {
-						TestTargetID = 32542A3E189350EE00D82532;
+					32FB5A0B18971C26001AB93B = {
+						TestTargetID = 32FB59EA18971C25001AB93B;
 					};
 				};
 			};
-			buildConfigurationList = 32542A3A189350ED00D82532 /* Build configuration list for PBXProject "PartyAlarm" */;
+			buildConfigurationList = 32FB59E618971C25001AB93B /* Build configuration list for PBXProject "PartyAlarm" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 32542A36189350ED00D82532;
-			productRefGroup = 32542A40189350EE00D82532 /* Products */;
+			mainGroup = 32FB59E218971C25001AB93B;
+			productRefGroup = 32FB59EC18971C25001AB93B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				32542A3E189350EE00D82532 /* PartyAlarm */,
-				32542A5E189350EE00D82532 /* PartyAlarmTests */,
+				32FB59EA18971C25001AB93B /* PartyAlarm */,
+				32FB5A0B18971C26001AB93B /* PartyAlarmTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		32542A3D189350EE00D82532 /* Resources */ = {
+		32FB59E918971C25001AB93B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32542A4F189350EE00D82532 /* InfoPlist.strings in Resources */,
-				32542A5A189350EE00D82532 /* Images.xcassets in Resources */,
+				32FB5A0718971C25001AB93B /* Images.xcassets in Resources */,
+				32FB59F918971C25001AB93B /* InfoPlist.strings in Resources */,
+				32FB5A0218971C25001AB93B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		32542A5D189350EE00D82532 /* Resources */ = {
+		32FB5A0A18971C26001AB93B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32542A6C189350EE00D82532 /* InfoPlist.strings in Resources */,
+				32FB5A1818971C26001AB93B /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		32542A3B189350EE00D82532 /* Sources */ = {
+		32FB59E718971C25001AB93B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32542A58189350EE00D82532 /* PartyAlarm.xcdatamodeld in Sources */,
-				32542A55189350EE00D82532 /* AppDelegate.m in Sources */,
-				32542A51189350EE00D82532 /* main.m in Sources */,
+				32FB59FF18971C25001AB93B /* AppDelegate.m in Sources */,
+				32FB5A2818971D02001AB93B /* AlarmTableController.m in Sources */,
+				32FB5A2B18971F1E001AB93B /* AlarmNavigationController.m in Sources */,
+				32FB59FB18971C25001AB93B /* main.m in Sources */,
+				32FB5A2518971CE6001AB93B /* AlarmCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		32542A5B189350EE00D82532 /* Sources */ = {
+		32FB5A0818971C26001AB93B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32542A6E189350EE00D82532 /* PartyAlarmTests.m in Sources */,
+				32FB5A1A18971C26001AB93B /* PartyAlarmTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		32542A66189350EE00D82532 /* PBXTargetDependency */ = {
+		32FB5A1218971C26001AB93B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 32542A3E189350EE00D82532 /* PartyAlarm */;
-			targetProxy = 32542A65189350EE00D82532 /* PBXContainerItemProxy */;
+			target = 32FB59EA18971C25001AB93B /* PartyAlarm */;
+			targetProxy = 32FB5A1118971C26001AB93B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		32542A4D189350EE00D82532 /* InfoPlist.strings */ = {
+		32FB59F718971C25001AB93B /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				32542A4E189350EE00D82532 /* en */,
+				32FB59F818971C25001AB93B /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		32542A6A189350EE00D82532 /* InfoPlist.strings */ = {
+		32FB5A0018971C25001AB93B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				32542A6B189350EE00D82532 /* en */,
+				32FB5A0118971C25001AB93B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32FB5A1618971C26001AB93B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32FB5A1718971C26001AB93B /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -292,7 +313,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		32542A6F189350EE00D82532 /* Debug */ = {
+		32FB5A1B18971C26001AB93B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -328,11 +349,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		32542A70189350EE00D82532 /* Release */ = {
+		32FB5A1C18971C26001AB93B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -361,12 +381,11 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		32542A72189350EE00D82532 /* Debug */ = {
+		32FB5A1E18971C26001AB93B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -379,7 +398,7 @@
 			};
 			name = Debug;
 		};
-		32542A73189350EE00D82532 /* Release */ = {
+		32FB5A1F18971C26001AB93B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -392,7 +411,7 @@
 			};
 			name = Release;
 		};
-		32542A75189350EE00D82532 /* Debug */ = {
+		32FB5A2118971C26001AB93B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
@@ -415,7 +434,7 @@
 			};
 			name = Debug;
 		};
-		32542A76189350EE00D82532 /* Release */ = {
+		32FB5A2218971C26001AB93B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
@@ -437,45 +456,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		32542A3A189350ED00D82532 /* Build configuration list for PBXProject "PartyAlarm" */ = {
+		32FB59E618971C25001AB93B /* Build configuration list for PBXProject "PartyAlarm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				32542A6F189350EE00D82532 /* Debug */,
-				32542A70189350EE00D82532 /* Release */,
+				32FB5A1B18971C26001AB93B /* Debug */,
+				32FB5A1C18971C26001AB93B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		32542A71189350EE00D82532 /* Build configuration list for PBXNativeTarget "PartyAlarm" */ = {
+		32FB5A1D18971C26001AB93B /* Build configuration list for PBXNativeTarget "PartyAlarm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				32542A72189350EE00D82532 /* Debug */,
-				32542A73189350EE00D82532 /* Release */,
+				32FB5A1E18971C26001AB93B /* Debug */,
+				32FB5A1F18971C26001AB93B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		32542A74189350EE00D82532 /* Build configuration list for PBXNativeTarget "PartyAlarmTests" */ = {
+		32FB5A2018971C26001AB93B /* Build configuration list for PBXNativeTarget "PartyAlarmTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				32542A75189350EE00D82532 /* Debug */,
-				32542A76189350EE00D82532 /* Release */,
+				32FB5A2118971C26001AB93B /* Debug */,
+				32FB5A2218971C26001AB93B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		32542A56189350EE00D82532 /* PartyAlarm.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				32542A57189350EE00D82532 /* PartyAlarm.xcdatamodel */,
-			);
-			currentVersion = 32542A57189350EE00D82532 /* PartyAlarm.xcdatamodel */;
-			path = PartyAlarm.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = 32542A37189350ED00D82532 /* Project object */;
+	rootObject = 32FB59E318971C25001AB93B /* Project object */;
 }
